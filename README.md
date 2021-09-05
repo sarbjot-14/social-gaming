@@ -16,6 +16,15 @@ sensitive information of any sort.
 In addition, a simple chat server with NCurses and browser based chat clients
 demonstrate how to use this API.
 
+### Learning Outcomes
+1. Learn CMake build system
+2. Continous deployment with gitlab runners
+3. Automated unit tests
+4. Create enviroments with docker
+6. Teamwork, agile development, and gitworkflow. 
+7. Decouple classes in order to seperate concerns
+8. Implementing Abstract Syntax Tree, Parsers, and Chat applications
+
 ## Dependencies
 
 This project requires:
