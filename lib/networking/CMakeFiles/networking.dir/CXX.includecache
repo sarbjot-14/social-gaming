@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/social-gaming2/social-gaming/lib/networking/src/Client.cpp
+Client.h
+/workspaces/social-gaming2/social-gaming/lib/networking/src/Client.h
+boost/asio.hpp
+-
+boost/beast.hpp
+-
+deque
+-
+sstream
+-
+
+/workspaces/social-gaming2/social-gaming/lib/networking/src/Server.cpp
+Server.h
+/workspaces/social-gaming2/social-gaming/lib/networking/src/Server.h
+boost/asio.hpp
+-
+boost/beast.hpp
+-
+
+lib/networking/include/Client.h
+memory
+-
+string
+-
+
+lib/networking/include/Server.h
+deque
+-
+functional
+-
+memory
+-
+string
+-
+unordered_map
+-
+

@@ -1,0 +1,132 @@
+[
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/AST",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/coroutine -I/workspaces/social-gaming2/social-gaming/include/json   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++2a -o CMakeFiles/AST.dir/ASTNode.cpp.o -c /workspaces/social-gaming2/social-gaming/AST/ASTNode.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/AST/ASTNode.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/AST",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/coroutine -I/workspaces/social-gaming2/social-gaming/include/json   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++2a -o CMakeFiles/AST.dir/ASTVisitor.cpp.o -c /workspaces/social-gaming2/social-gaming/AST/ASTVisitor.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/AST/ASTVisitor.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/AST",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/coroutine -I/workspaces/social-gaming2/social-gaming/include/json   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++2a -o CMakeFiles/AST.dir/Parser.cpp.o -c /workspaces/social-gaming2/social-gaming/AST/Parser.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/AST/Parser.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/AST",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/coroutine -I/workspaces/social-gaming2/social-gaming/include/json   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++2a -o CMakeFiles/AST.dir/DSLValue.cpp.o -c /workspaces/social-gaming2/social-gaming/AST/DSLValue.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/AST/DSLValue.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/AST",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/coroutine -I/workspaces/social-gaming2/social-gaming/include/json   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++2a -o CMakeFiles/AST.dir/Environment.cpp.o -c /workspaces/social-gaming2/social-gaming/AST/Environment.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/AST/Environment.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/AST",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/coroutine -I/workspaces/social-gaming2/social-gaming/include/json   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++2a -o CMakeFiles/AST.dir/Config.cpp.o -c /workspaces/social-gaming2/social-gaming/AST/Config.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/AST/Config.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/AST",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/coroutine -I/workspaces/social-gaming2/social-gaming/include/json   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++2a -o CMakeFiles/AST.dir/CFGParser.cpp.o -c /workspaces/social-gaming2/social-gaming/AST/CFGParser.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/AST/CFGParser.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/lib/networking",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -I/workspaces/social-gaming2/social-gaming/lib/networking/include -I/workspaces/social-gaming2/social-gaming/lib/networking/src   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++17 -o CMakeFiles/networking.dir/src/Server.cpp.o -c /workspaces/social-gaming2/social-gaming/lib/networking/src/Server.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/lib/networking/src/Server.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/lib/networking",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -I/workspaces/social-gaming2/social-gaming/lib/networking/include -I/workspaces/social-gaming2/social-gaming/lib/networking/src   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++17 -o CMakeFiles/networking.dir/src/Client.cpp.o -c /workspaces/social-gaming2/social-gaming/lib/networking/src/Client.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/lib/networking/src/Client.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/tools/chatserver",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/lib/networking/include -I/workspaces/social-gaming2/social-gaming/AST -I/workspaces/social-gaming2/social-gaming/coroutine -I/workspaces/social-gaming2/social-gaming/include/json   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++2a -o CMakeFiles/chatserver.dir/chatserver.cpp.o -c /workspaces/social-gaming2/social-gaming/tools/chatserver/chatserver.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/tools/chatserver/chatserver.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/tools/chatserver",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/lib/networking/include -I/workspaces/social-gaming2/social-gaming/AST -I/workspaces/social-gaming2/social-gaming/coroutine -I/workspaces/social-gaming2/social-gaming/include/json   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++2a -o CMakeFiles/chatserver.dir/GameServer.cpp.o -c /workspaces/social-gaming2/social-gaming/tools/chatserver/GameServer.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/tools/chatserver/GameServer.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/tools/chatserver",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/lib/networking/include -I/workspaces/social-gaming2/social-gaming/AST -I/workspaces/social-gaming2/social-gaming/coroutine -I/workspaces/social-gaming2/social-gaming/include/json   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++2a -o CMakeFiles/chatserver.dir/Room.cpp.o -c /workspaces/social-gaming2/social-gaming/tools/chatserver/Room.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/tools/chatserver/Room.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/tools/chatserver",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/lib/networking/include -I/workspaces/social-gaming2/social-gaming/AST -I/workspaces/social-gaming2/social-gaming/coroutine -I/workspaces/social-gaming2/social-gaming/include/json   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++2a -o CMakeFiles/chatserver.dir/RoomManager.cpp.o -c /workspaces/social-gaming2/social-gaming/tools/chatserver/RoomManager.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/tools/chatserver/RoomManager.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/tools/chatserver",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/lib/networking/include -I/workspaces/social-gaming2/social-gaming/AST -I/workspaces/social-gaming2/social-gaming/coroutine -I/workspaces/social-gaming2/social-gaming/include/json   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++2a -o CMakeFiles/chatserver.dir/GameManager.cpp.o -c /workspaces/social-gaming2/social-gaming/tools/chatserver/GameManager.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/tools/chatserver/GameManager.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/tools/chatserver",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/lib/networking/include -I/workspaces/social-gaming2/social-gaming/AST -I/workspaces/social-gaming2/social-gaming/coroutine -I/workspaces/social-gaming2/social-gaming/include/json   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++2a -o CMakeFiles/chatserver.dir/GameInstance.cpp.o -c /workspaces/social-gaming2/social-gaming/tools/chatserver/GameInstance.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/tools/chatserver/GameInstance.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/tools/chatclient",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/lib/networking/include   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++17 -o CMakeFiles/chatclient.dir/chatclient.cpp.o -c /workspaces/social-gaming2/social-gaming/tools/chatclient/chatclient.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/tools/chatclient/chatclient.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/tools/chatclient",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/lib/networking/include   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++17 -o CMakeFiles/chatclient.dir/ChatWindow.cpp.o -c /workspaces/social-gaming2/social-gaming/tools/chatclient/ChatWindow.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/tools/chatclient/ChatWindow.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/g++   -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googlemock/include -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googlemock -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest/include -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/workspaces/social-gaming2/social-gaming/_deps/googletest-src/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/_deps/googletest-src/googlemock/include -I/workspaces/social-gaming2/social-gaming/_deps/googletest-src/googlemock -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest/include -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/workspaces/social-gaming2/social-gaming/_deps/googletest-src/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/_deps/googletest-build/googletest",
+  "command": "/usr/bin/g++   -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest/include -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/_deps/googletest-build/googletest",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest/include -I/workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/test",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/include/json -I/workspaces/social-gaming2/social-gaming/AST -I/workspaces/social-gaming2/social-gaming/coroutine -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest/include -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googlemock/include -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googlemock   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++2a -o CMakeFiles/runAllTests.dir/ASTTests.cpp.o -c /workspaces/social-gaming2/social-gaming/test/ASTTests.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/test/ASTTests.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/test",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/include/json -I/workspaces/social-gaming2/social-gaming/AST -I/workspaces/social-gaming2/social-gaming/coroutine -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest/include -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googlemock/include -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googlemock   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++2a -o CMakeFiles/runAllTests.dir/DSLValueTest.cpp.o -c /workspaces/social-gaming2/social-gaming/test/DSLValueTest.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/test/DSLValueTest.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/test",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/include/json -I/workspaces/social-gaming2/social-gaming/AST -I/workspaces/social-gaming2/social-gaming/coroutine -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest/include -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googlemock/include -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googlemock   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++2a -o CMakeFiles/runAllTests.dir/ParseToCFGTest.cpp.o -c /workspaces/social-gaming2/social-gaming/test/ParseToCFGTest.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/test/ParseToCFGTest.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/test",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/include/json -I/workspaces/social-gaming2/social-gaming/AST -I/workspaces/social-gaming2/social-gaming/coroutine -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest/include -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googlemock/include -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googlemock   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++2a -o CMakeFiles/runAllTests.dir/ExpressionParserTests.cpp.o -c /workspaces/social-gaming2/social-gaming/test/ExpressionParserTests.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/test/ExpressionParserTests.cpp"
+},
+{
+  "directory": "/workspaces/social-gaming2/social-gaming/test",
+  "command": "/usr/bin/g++   -I/workspaces/social-gaming2/social-gaming/include/json -I/workspaces/social-gaming2/social-gaming/AST -I/workspaces/social-gaming2/social-gaming/coroutine -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest/include -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googletest -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googlemock/include -isystem /workspaces/social-gaming2/social-gaming/_deps/googletest-src/googlemock   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   -std=gnu++2a -o CMakeFiles/runAllTests.dir/EnvironmentTest.cpp.o -c /workspaces/social-gaming2/social-gaming/test/EnvironmentTest.cpp",
+  "file": "/workspaces/social-gaming2/social-gaming/test/EnvironmentTest.cpp"
+}
+]

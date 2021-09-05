@@ -1,0 +1,14 @@
+# Target labels
+ pegparser-populate
+# Source files and their labels
+/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/CMakeFiles/pegparser-populate
+/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/CMakeFiles/pegparser-populate.rule
+/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/CMakeFiles/pegparser-populate-complete.rule
+/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/pegparser-populate-prefix/src/pegparser-populate-stamp/pegparser-populate-install.rule
+/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/pegparser-populate-prefix/src/pegparser-populate-stamp/pegparser-populate-mkdir.rule
+/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/pegparser-populate-prefix/src/pegparser-populate-stamp/pegparser-populate-download.rule
+/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/pegparser-populate-prefix/src/pegparser-populate-stamp/pegparser-populate-update.rule
+/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/pegparser-populate-prefix/src/pegparser-populate-stamp/pegparser-populate-patch.rule
+/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/pegparser-populate-prefix/src/pegparser-populate-stamp/pegparser-populate-configure.rule
+/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/pegparser-populate-prefix/src/pegparser-populate-stamp/pegparser-populate-build.rule
+/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/pegparser-populate-prefix/src/pegparser-populate-stamp/pegparser-populate-test.rule

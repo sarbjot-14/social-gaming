@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libAST.a  CMakeFiles/AST.dir/ASTNode.cpp.o CMakeFiles/AST.dir/ASTVisitor.cpp.o CMakeFiles/AST.dir/Parser.cpp.o CMakeFiles/AST.dir/DSLValue.cpp.o CMakeFiles/AST.dir/Environment.cpp.o CMakeFiles/AST.dir/Config.cpp.o CMakeFiles/AST.dir/CFGParser.cpp.o
+/usr/bin/ranlib ../lib/libAST.a

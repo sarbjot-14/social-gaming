@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/social-gaming2/social-gaming/tools/chatclient/ChatWindow.cpp
+ChatWindow.h
+/workspaces/social-gaming2/social-gaming/tools/chatclient/ChatWindow.h
+cassert
+-
+form.h
+-
+ncurses.h
+-
+
+/workspaces/social-gaming2/social-gaming/tools/chatclient/ChatWindow.h
+functional
+-
+memory
+-
+string
+-
+
+/workspaces/social-gaming2/social-gaming/tools/chatclient/chatclient.cpp
+iostream
+-
+unistd.h
+-
+ChatWindow.h
+/workspaces/social-gaming2/social-gaming/tools/chatclient/ChatWindow.h
+Client.h
+/workspaces/social-gaming2/social-gaming/tools/chatclient/Client.h
+
+lib/networking/include/Client.h
+memory
+-
+string
+-
+

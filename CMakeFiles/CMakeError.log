@@ -1,0 +1,302 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3e77d/fast && /usr/bin/make -f CMakeFiles/cmTC_3e77d.dir/build.make CMakeFiles/cmTC_3e77d.dir/build
+make[1]: Entering directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e77d.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_3e77d.dir/src.c.o   -c /workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3e77d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e77d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_3e77d.dir/src.c.o  -o cmTC_3e77d 
+/usr/bin/ld: CMakeFiles/cmTC_3e77d.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_3e77d.dir/build.make:87: cmTC_3e77d] Error 1
+make[1]: Leaving directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_3e77d/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e8d39/fast && /usr/bin/make -f CMakeFiles/cmTC_e8d39.dir/build.make CMakeFiles/cmTC_e8d39.dir/build
+make[1]: Entering directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8d39.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e8d39.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e8d39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8d39.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_e8d39.dir/CheckFunctionExists.c.o  -o cmTC_e8d39  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_e8d39.dir/build.make:87: cmTC_e8d39] Error 1
+make[1]: Leaving directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e8d39/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fbd25/fast && make[1]: Entering directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fbd25.dir/build.make CMakeFiles/cmTC_fbd25.dir/build
+make[2]: Entering directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbd25.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_fbd25.dir/src.c.o   -c /workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fbd25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbd25.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_fbd25.dir/src.c.o  -o cmTC_fbd25 
+/usr/bin/ld: CMakeFiles/cmTC_fbd25.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_fbd25.dir/build.make:87: cmTC_fbd25] Error 1
+make[2]: Leaving directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_fbd25/fast] Error 2
+make[1]: Leaving directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_95325/fast && make[1]: Entering directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_95325.dir/build.make CMakeFiles/cmTC_95325.dir/build
+make[2]: Entering directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95325.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_95325.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95325
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95325.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_95325.dir/CheckFunctionExists.c.o  -o cmTC_95325  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_95325.dir/build.make:87: cmTC_95325] Error 1
+make[2]: Leaving directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_95325/fast] Error 2
+make[1]: Leaving directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_09a20/fast && make[1]: Entering directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_09a20.dir/build.make CMakeFiles/cmTC_09a20.dir/build
+make[2]: Entering directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09a20.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_09a20.dir/src.c.o   -c /workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_09a20
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09a20.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_09a20.dir/src.c.o  -o cmTC_09a20 
+/usr/bin/ld: CMakeFiles/cmTC_09a20.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_09a20.dir/build.make:87: cmTC_09a20] Error 1
+make[2]: Leaving directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_09a20/fast] Error 2
+make[1]: Leaving directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9d970/fast && make[1]: Entering directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9d970.dir/build.make CMakeFiles/cmTC_9d970.dir/build
+make[2]: Entering directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d970.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9d970.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9d970
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d970.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_9d970.dir/CheckFunctionExists.c.o  -o cmTC_9d970  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_9d970.dir/build.make:87: cmTC_9d970] Error 1
+make[2]: Leaving directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_9d970/fast] Error 2
+make[1]: Leaving directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d6864/fast && /usr/bin/make -f CMakeFiles/cmTC_d6864.dir/build.make CMakeFiles/cmTC_d6864.dir/build
+make[1]: Entering directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6864.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_d6864.dir/src.c.o   -c /workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d6864
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6864.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_d6864.dir/src.c.o  -o cmTC_d6864 
+/usr/bin/ld: CMakeFiles/cmTC_d6864.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_d6864.dir/build.make:87: cmTC_d6864] Error 1
+make[1]: Leaving directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d6864/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b17b9/fast && /usr/bin/make -f CMakeFiles/cmTC_b17b9.dir/build.make CMakeFiles/cmTC_b17b9.dir/build
+make[1]: Entering directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b17b9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b17b9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b17b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b17b9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b17b9.dir/CheckFunctionExists.c.o  -o cmTC_b17b9  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b17b9.dir/build.make:87: cmTC_b17b9] Error 1
+make[1]: Leaving directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b17b9/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e9b5e/fast && make[1]: Entering directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e9b5e.dir/build.make CMakeFiles/cmTC_e9b5e.dir/build
+make[2]: Entering directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9b5e.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_e9b5e.dir/src.c.o   -c /workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e9b5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9b5e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_e9b5e.dir/src.c.o  -o cmTC_e9b5e 
+/usr/bin/ld: CMakeFiles/cmTC_e9b5e.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_e9b5e.dir/build.make:87: cmTC_e9b5e] Error 1
+make[2]: Leaving directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_e9b5e/fast] Error 2
+make[1]: Leaving directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_528b1/fast && make[1]: Entering directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_528b1.dir/build.make CMakeFiles/cmTC_528b1.dir/build
+make[2]: Entering directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_528b1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_528b1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_528b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_528b1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_528b1.dir/CheckFunctionExists.c.o  -o cmTC_528b1  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_528b1.dir/build.make:87: cmTC_528b1] Error 1
+make[2]: Leaving directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_528b1/fast] Error 2
+make[1]: Leaving directory '/workspaces/social-gaming2/social-gaming/CMakeFiles/CMakeTmp'
+
+
+

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/CMakeFiles/pegparser-populate"
+		},
+		{
+			"file" : "/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/CMakeFiles/pegparser-populate.rule"
+		},
+		{
+			"file" : "/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/CMakeFiles/pegparser-populate-complete.rule"
+		},
+		{
+			"file" : "/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/pegparser-populate-prefix/src/pegparser-populate-stamp/pegparser-populate-install.rule"
+		},
+		{
+			"file" : "/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/pegparser-populate-prefix/src/pegparser-populate-stamp/pegparser-populate-mkdir.rule"
+		},
+		{
+			"file" : "/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/pegparser-populate-prefix/src/pegparser-populate-stamp/pegparser-populate-download.rule"
+		},
+		{
+			"file" : "/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/pegparser-populate-prefix/src/pegparser-populate-stamp/pegparser-populate-update.rule"
+		},
+		{
+			"file" : "/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/pegparser-populate-prefix/src/pegparser-populate-stamp/pegparser-populate-patch.rule"
+		},
+		{
+			"file" : "/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/pegparser-populate-prefix/src/pegparser-populate-stamp/pegparser-populate-configure.rule"
+		},
+		{
+			"file" : "/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/pegparser-populate-prefix/src/pegparser-populate-stamp/pegparser-populate-build.rule"
+		},
+		{
+			"file" : "/workspaces/social-gaming2/social-gaming/_deps/pegparser-subbuild/pegparser-populate-prefix/src/pegparser-populate-stamp/pegparser-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pegparser-populate"
+		],
+		"name" : "pegparser-populate"
+	}
+}

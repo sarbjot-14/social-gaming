@@ -1,0 +1,1 @@
+/usr/bin/g++   -DGCC=1 -O0 -g -fcoroutines -fsanitize=address -fno-omit-frame-pointer   CMakeFiles/chatclient.dir/chatclient.cpp.o CMakeFiles/chatclient.dir/ChatWindow.cpp.o  -o ../../bin/chatclient  -Wl,-rpath,/usr/local/lib: ../../lib/libnetworking.a -lcurses /usr/lib/x86_64-linux-gnu/libform.so -lpthread /usr/local/lib/libboost_system.so.1.72.0 
